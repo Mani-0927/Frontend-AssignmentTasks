@@ -1,0 +1,46 @@
+body{
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+#box{
+  margin-top: 2rem;
+  background-color: rgb(131, 220, 220);
+  box-shadow: 10px 10px 10px 10px rgb(235, 239, 239);
+  border-radius: 10px;
+  padding: 2rem;
+}
+h1{
+  margin: 2rem;
+  text-align: center;
+  text-shadow: 6px 5px 5px rgba(150, 150, 150, 0.5);
+}
+#text{
+  width: 300px;
+  height: 100px;
+  margin-top: 3rem;
+  padding: 1rem;
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 6px 3px 6px 3px rgb(219, 227, 234);
+  border-width:2.5px;
+  border-color: rgb(65, 9, 93);
+  font-size: 20px;
+}
+
+#counter{
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#warning{
+  font-size: 16px;
+  margin-top : -1rem;
+  color : red;
+  font-weight: bold;
+}
+
