@@ -1,0 +1,34 @@
+<!-- Task 1: Dynamic To-Do List
+Objective: Understand element creation, event handling, and DOM updates.
+Instructions:
+
+- Create an input box and “Add Task” button.
+- When a user enters a task and clicks the button, add it to a list (<ul>).
+- Each task should have a Delete and Edit button.
+- Edited tasks should update dynamically without page refresh.
+Bonus (5 marks): Use localStorage to persist tasks. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Dynamic To-Do List</h1>
+  <div class="box">
+    <input type="text" id="taskInput" placeholder="Enter a task ">
+  </div>
+  <div class="btn">
+    <button id="taskBtn">Add Task</button>
+  </div>
+  <ul id="addTask"></ul>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

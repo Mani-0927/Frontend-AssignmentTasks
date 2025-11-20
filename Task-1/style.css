@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: rgb(222, 204, 179);
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.box {
+  box-sizing: border-box;
+  box-shadow: 0 6px 6px rgb(249, 234, 234);
+  margin: 2rem;
+  padding: 2rem;
+  background: linear-gradient(to right, rgb(148, 148, 226), white);
+  border-radius: 9px;
+}
+
+.box input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  font-size: 20px;
+}
+
+.btn button {
+  padding: 14px;
+  border-radius: 6px;
+  border-style: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#addTask {
+  padding: 20px;
+}
