@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#box{
+  background-color: lightblue;
+  width: 50%;
+  height: 50%;
+  padding: 2rem;
+  margin: 2rem;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 5px 6px rgb(155, 155, 255);
+}
+
+#all , #electronic , #clothes{
+  border-radius: 8px;
+  padding: 7px;
+  margin: 5px;
+  border: 1px solid skyblue;
+  background-color: rgb(9, 188, 96);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+#all:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#electronic:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#clothes:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#filter{
+  margin: 5px;
+  padding: 7px;
+  border: none;
+  border-radius: 9px;
+  border : 2px solid rgb(110, 210, 209)
+}
+
+#filter:focus{
+  border: 2px solid rgb(110, 210, 209);
+  outline: none;
+}
