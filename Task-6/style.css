@@ -1,0 +1,36 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #444;
+  padding: 10px;
+  text-align: left;
+}
+
+#spinner {
+  display: none;
+  font-size: 20px;
+  margin-top: 10px;
+  color: blue;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 13px;
+  background-color: aquamarine;
+  border: none;
+
+}
+
+body{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
