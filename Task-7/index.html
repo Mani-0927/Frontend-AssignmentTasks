@@ -1,0 +1,30 @@
+<!-- Task 2: Random Joke Generator
+Objective: Understand Promises and UI updates dynamically.
+Instructions:
+
+- Fetch a random joke from https://official-joke-api.appspot.com/random_joke.
+- Display the setup and punchline on the webpage.
+- Include a “Next Joke” button that fetches a new joke every time.
+- Use .then() and .catch() for handling success and errors.
+Bonus: Disable the button during the API call to prevent multiple clicks. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task-7></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h3>Click on button to get a joke 😄😄😄</h3>
+    <div id="jokeBox">
+    <button id = "setup">Get a joke 😄</button>
+    <p id = "punchLine"></p>
+    </div>
+    <button id="nextBtn">Next 👉🏻</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
